@@ -1,0 +1,14 @@
+<nav class="navbar">
+  <div class="navbar-brand">
+    <span class="logo">Ravisurya</span>
+    <button class="menu-btn" (click)="toggleMenu()">☰</button>
+  </div>
+
+  <div class="nav-links" [class.open]="isMenuOpen">
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="closeMenu()">Home</a>
+    <a routerLink="/about" routerLinkActive="active" (click)="closeMenu()">About</a>
+    <a routerLink="/skills" routerLinkActive="active" (click)="closeMenu()">Skills</a>
+    <a routerLink="/projects" routerLinkActive="active" (click)="closeMenu()">Projects</a>
+    <a routerLink="/contact" routerLinkActive="active" (click)="closeMenu()">Contact</a>
+  </div>
+</nav>

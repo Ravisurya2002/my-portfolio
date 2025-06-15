@@ -1,0 +1,42 @@
+.contact-container {
+  background-image: url('https://images.unsplash.com/photo-1525182008055-f88b95ff7980');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+h1 {
+  color: #f3f5f5;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.info p {
+  font-size: 1.1rem;
+  margin: 15px 0;
+  color: #ccc;
+}
+
+a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00e5ff;
+  text-decoration: underline;
+}
