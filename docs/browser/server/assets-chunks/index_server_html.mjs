@@ -12,6 +12,6 @@ export default `<!doctype html>
   <app-root></app-root>
   <app-navbar></app-navbar>
   <router-outlet></router-outlet>
-<script src="polyfills-B6TNHZQ6.js" type="module"></script><script src="main-GSRJRFLS.js" type="module"></script></body>
+<script src="polyfills-B6TNHZQ6.js" type="module"></script><script src="main-AQVKPEA5.js" type="module"></script></body>
 </html>
 `;
