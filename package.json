@@ -2,13 +2,13 @@
   "name": "my-portfolio",
   "version": "0.0.0",
   "scripts": {
-  "ng": "ng",
-  "start": "ng serve",
-  "build": "ng build --configuration production",
-  "watch": "ng build --watch --configuration development",
-  "test": "ng test",
-  "serve:ssr:my-portfolio": "node dist/my-portfolio/server/server.mjs",
-  "postinstall": "npm install -g @angular/cli"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build --configuration production",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "serve:ssr:my-portfolio": "node dist/my-portfolio/server/server.mjs",
+    "postinstall": "npm install -g @angular/cli"
   },
   "private": true,
   "dependencies": {
@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@angular/build": "^20.0.2",
-    "@angular/cli": "^20.0.2",
+    "@angular/cli": "^17.3.17",
     "@angular/compiler-cli": "^20.0.0",
     "@types/express": "^5.0.1",
     "@types/jasmine": "~5.1.0",
